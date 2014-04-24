@@ -1,0 +1,95 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage {graphicx}
+
+\title {El número Pi}
+\author[Juan Jesús]{Juan Jesús Dóniz Labrador}
+\date [24/04/14]{24 de Abril de 2014}
+\institute{Facultad de Matemáticas}
+
+\usetheme{Madrid}
+
+\definecolor{MiVioleta}{RGB}{122,59,122}
+\definecolor{MiAzul}{RGB}{0,88,147}
+\definecolor{MiGris}{RGB}{56,61,66}
+\setbeamercolor*{palette primary}{use=structure,fg=white,bg=MiVioleta}
+\setbeamercolor*{palette secundary}{use=structure,fg=white,bg=MiAzul}
+\setbeamercolor*{palette tertiary}{use=structure,fg=white,bg=MiGris}
+\begin{document}
+\begin{frame} 
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{índice}
+\tableofcontents[pausesections]
+\end{frame}
+
+\section{Introducción}
+\begin{frame}
+\frametitle{Introducción}
+El número $\pi$ es posiblemente la constante numérica más estudiada a lo largo de la historia.
+Su entorno, aunque en apariencia sólo a nivel matemático, ha trascendido las fronteras de esta disciplina y es así como ha
+suscitado el interés de hombres en diversas áreas del conocimiento. La revisión de su
+desarrollo histórico es, por tanto, una combinación amena de aspectos científicos,anecdóticos y culturales.
+\end{frame}
+
+
+\section{Marco histórico}
+\begin{frame}
+\frametitle{Marco histórico}
+La historia del número $\pi$ puede dividirse en tres períodos claramente establecidos, los cuales se diferencian entre sí por aspectos
+relacionados con el método, propósitos inmediatos y las herramientas científicas e intelectuales disponibles.
+\begin{itemize}
+\item El primer período cubre el tiempo transcurrido entre los primeros registros de determinaciones empíricas de la relación del perímetro de una
+circunferencia y su diámetro hasta la invención del cálculo diferencial e integral a mediados del siglo XVII.
+En este intervalo de tiempo se puede hablar de algunas aproximaciones de $\pi$ por parte de los Babilonios, los Egipcios y los Hebreos.\pause
+
+\item El segundo período se inicia coincidiendo con el descubrimiento de esa herramienta esperada: el cálculo infinitesimal.
+Su duración se extiende por un lapso aproximado de un siglo, y se caracteriza por la aplicación de métodos analíticos poderosos para la
+determinación de expresiones para el cálculo de que, por lo general, incluían funciones trigonométricas en la forma de series
+convergentes, no pocas de ellas empíricas y muy ingeniosas, productos infinitos y fracciones continuas.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Marco histórico}
+\begin {itemize}
+\item El tercer período se extiende desde mediados del siglo XVIII hasta finales del siglo XIX, y se caracteriza por la atención dirigida a toda
+clase de investigaciones críticas sobre la verdadera naturaleza del número $\pi$ en sí mismo.
+\end {itemize}
+\end{frame}
+
+\section{Fórmulas}
+\begin{frame}
+\frametitle{FÓRMULAS}
+A continuación se van a ver fórmulas que se dieron para calcular el valor del número $\pi$:
+\begin {block}{El número Pi}
+El número $\pi$  tiene infinitas cifras, y las dos primeros decimales son: $\pi \approx 3.14$
+
+El número $\pi$  contiene infinitos números y las cuatro primeros son: $\pi \approx3.1415$
+
+El número $\pi$  tiene infinitas cifras, y las seis primeras son: $\pi \approx 3.141592$
+
+El número $\pi$  es infinito y con ocho decimales es el siguiente: $\pi \approx 3.14159208$
+
+El número $\pi$  con diez decimales es el siguiente: $\pi \approx 3.1415920875$
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Bibliografía}
+\begin{thebibliography}
+\beamertermplatebookbibitems
+\bibitem[Guía docente,2013]{guia}
+guia docente (año 2013)
+{\small $https://www.github.com$}
+\bibitem[El número Pi y su historia,2011]{Akermand, Marco}
+El número Pi y su historia (año 2011)
+{\small $https://www.ull.es$}
+\end{thebibliography}
+\end{frame}
+
+\end{document}

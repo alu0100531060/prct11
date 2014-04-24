@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{5}{0}{1}
+\beamer@sectionintoc {2}{Marco hist\IeC {\'o}rico}{6}{0}{2}
+\beamer@sectionintoc {3}{F\IeC {\'o}rmulas}{9}{0}{3}
